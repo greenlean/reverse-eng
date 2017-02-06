@@ -1,0 +1,11 @@
+In this example a logical operator are tested.
+
+
+
+First jump is taken, and zf is cleared.
+
+Then, the ecx register is loaded 1. The test instruction, does not set any flag. The Jump is not taken.
+
+Finally, 
+
+var_8 = 6;

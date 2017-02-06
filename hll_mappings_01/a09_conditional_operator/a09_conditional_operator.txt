@@ -1,0 +1,23 @@
+conditional operators .
+like  less than <
+greater than  >
+less than or equal to  <=
+greater than or equal to >=
+
+
+int main(){
+int var_4 = 2;
+int var_8 = 7;
+
+//short if less or equal (ZF=1 or SF<>OF)
+if (var_4 <= var_8){ //(var_4 - var_8)
+	var_10 = var_4;
+}
+else{
+	var_10 = var_8;
+}
+
+
+var_C = var_10;
+
+}

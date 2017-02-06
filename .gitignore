@@ -1,6 +1,8 @@
 # Ignore not used Directories 
 ##############################
 binary-auditing-training-package/
+Documentation/
+
 
 # Compiled source #
 ###################

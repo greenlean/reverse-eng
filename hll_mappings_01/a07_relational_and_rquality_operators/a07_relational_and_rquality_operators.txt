@@ -1,0 +1,25 @@
+On this example, we should distinguis the flags that are set on the operations.
+
+xor eax, eax
+jz short loc_40100B	; The flas Z is set.
+
+CF - Carry Flag
+PF - Parity Flag
+AF - Adjust Flag
+ZF - Zero Flag
+SF - Sign Flag
+OF - Overflow Flag
+
+Test, Computes the bit-wise logical AND of first operand (source 1 operand) and the second operand (source 2 operand) and sets the SF, ZF, and PF status flags according to the result. The result is then discarded.
+
+loc_40100B:
+  mov ecx, 1
+  test ecx, ecx
+  jz short loc_401016	; Z not set.
+
+
+int main(){
+
+
+}
+

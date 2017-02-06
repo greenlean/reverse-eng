@@ -1,0 +1,33 @@
+There are six bitwise operators in C .
+
+AND  &
+OR    |
+XOR ^
+ones compliment  ~
+Left shift  <<
+Right shift   >>
+
+
+int main(){
+	int var_8;
+	int var_4;
+
+	var_4 = 1;
+	var_8 = 0;
+
+		// JGE rel16/32	Jump near if greater or equal
+	while ( var_8 < 6){
+		var_4 = var_4 <<1;
+
+		var_8 ++;
+	}
+	
+	var_8 = 0;
+	while( var_8 < 4){
+		var_4  = var_4 >>1;
+
+		var_8 ++;
+	}
+
+
+}

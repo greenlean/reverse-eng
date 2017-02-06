@@ -1,0 +1,43 @@
+There are two global variables:
+
+var_8 => 4 bytes	=> float
+var_4 => 4 bytes	=> float
+
+La clave de este problema, es que al tratarse de una variable quad word, no existen registros
+de 64 para procesarlo, y por lo tanto debe hacerse en dos partes, los 4 primeros bytes primero
+y despues el resto y el acarreo.
+
+int main(){
+	float var_8;
+	float var_4;
+
+	var_8 = 3.140001;
+
+	
+
+}
+
+int fto12_sse (float var_8){
+	int var_24;
+	long int var_14;
+	double var_C;
+	short var_4;
+
+//Saca de la pila nuestro flotante.
+	var_C = var_8;	// The value is not poped from the stack.
+	var_14 = (int) var_C; // The value is poped from the stack.
+
+	//Convert signed-integer source operand into double extended-precision floating-point
+	if (var_14 == 0){
+
+	}
+	
+	temp = (var_C - (double) var_14);
+	if ( temp < 0){
+
+	}
+
+	var_24 = temp;
+
+	var_4 = 
+}
