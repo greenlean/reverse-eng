@@ -1,0 +1,16 @@
+
+
+int main(){
+
+	int var_4;
+	int var_8;
+	
+	if (var_4 == 0)
+		var_4 = 0xFFFFFFF;
+	if (var_8 <= 0)
+		var_8 = 0xFFFFFFF;
+	else
+		var_8 = 1;
+
+	var_4 + var_8;
+}

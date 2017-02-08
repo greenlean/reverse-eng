@@ -1,0 +1,16 @@
+
+
+int main(){
+
+	int var_4;
+	int var_8;
+
+	var_4 = 0x666;
+	var_8 = 0x777;
+
+	var_C = var_4 + var_8;
+
+	printf ("%x + %x = %x\n", var_4, var_8, var_C )
+	var_C = var_8 + var_4;
+	printf("%x + %x = %x\n", var_4, var_8, var_C )
+}

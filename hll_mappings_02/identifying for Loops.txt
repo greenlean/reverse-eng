@@ -1,0 +1,7 @@
+int main(){
+	int var_4;
+
+	for (var_4 = 0; var_4 < 10; var_4++){
+		printf();
+	}
+}

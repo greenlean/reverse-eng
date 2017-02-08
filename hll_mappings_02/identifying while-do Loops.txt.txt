@@ -1,0 +1,19 @@
+There is only one variable:
+
+int main(){
+	//var_4  = > dd
+	int var_4;
+
+	var_4 = 0;
+	while(var_4 < 10){
+		printf()
+		var_4 ++;
+	}
+
+	do{
+	printf();
+	var_4 --;
+	}while(var_4 < 0);
+
+}
+	

@@ -1,0 +1,13 @@
+
+
+int main(){
+
+	int var_4;
+	int var_8;
+
+	var_C = var_8 + var_4;
+	printf("%x\n",  var_C )
+
+	var_C = var_C + 1;
+	printf("%x\n",  var_C )
+}
